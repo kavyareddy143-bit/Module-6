@@ -40,15 +40,14 @@ class Rectangle:
         
         print(self.__width)
 
-# Create an object of Rectangle class
+
 
 rect = Rectangle(5, 3)
 
-# Print private values using the method within the class
 
 rect.print_values()
 
-# Attempt to print private values outside the class (will raise an AttributeError)
+
 
 
 ## Output
